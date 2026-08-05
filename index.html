@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Higher Secondary School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>GOVERNMENT HIGHER SECONDARY SCHOOL</h1>
+        <p>DASANAICKENPATTI - 636 201, SALEM DISTRICT</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About School</a></li>
+            <li><a href="#events">Events Gallery</a></li>
+            <li><a href="#history">School History</a></li>
+            <li><a href="#results">Student Marks</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="content-section">
+            <h2>Welcome to Our School!</h2>
+            <p>
+
+
+<h5>தொலைநோக்கு (Vision)</h5>
+அறிவு, நற்பண்பு, புதுமைச் சிந்தனை மற்றும் சமூகப் பொறுப்புணர்வு கொண்ட எதிர்காலத் தலைவர்களை உருவாக்கும் சிறந்த கல்வி நிறுவனமாக திகழ்வது.<br>
+
+<h5>பணி (Mission)</h5>
+தரமான மற்றும் மாணவர் மையக் கல்வியை வழங்குதல்.
+சிந்தனைத் திறன், படைப்பாற்றல் மற்றும் தொழில்நுட்பத் திறன்களை வளர்த்தல்.
+ஒழுக்கம், மனிதநேயம் மற்றும் சமூகப் பொறுப்பை மாணவர்களிடம் உருவாக்குதல்.
+உயர்கல்வி, தொழில் மற்றும் வாழ்க்கை வெற்றிக்குத் தேவையான திறன்களை மாணவர்களிடம் மேம்படுத்துதல்..</p>
+        </section>
+
+        <!-- Events Frame Section -->
+        <section id="events" class="content-section">
+            <h2>📸 School Events Gallery</h2>
+            <div class="photo-frame">
+                <!-- Placeholder for photos. You will replace this with an iframe or link -->
+                <iframe src="YOUR_GOOGLE_DRIVE_PHOTO_LINK_HERE" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+                <p class="note">🖼 Please replace the iframe source with your actual Google Drive link.</p>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="content-section">
+            <h2>📜 Our School History</h2>
+            <div class="history-box">
+                <p><strong><h5>பள்ளி அறிமுகம்</h5></strong> அறிவும், ஒழுக்கமும், மனிதநேயமும் இணைந்த தரமான கல்வியை வழங்குவதே எங்கள் பள்ளியின் நோக்கமாகும். ஒவ்வொரு மாணவரின் தனித்திறமையையும் வளர்த்து, தன்னம்பிக்கை, படைப்பாற்றல், சமூகப் பொறுப்பு மற்றும் நவீன தொழில்நுட்பத் திறன்களுடன் சிறந்த குடிமகன்களாக உருவாக்க எங்கள் பள்ளி அர்ப்பணிப்புடன் செயல்படுகிறது.<br></p>
+            </div>
+        </section>
+
+        <!-- Marks Section -->
+        <section id="results" class="content-section">
+            <h2>📊 Student Examination Results</h2>
+            <div class="marks-form">
+                <div class="input-group">
+                    <label for="examNumber">Exam Number:</label>
+                    <input type="number" id="examNumber" placeholder="Enter Exam Number" required>
+                </div>
+                <div class="input-group">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" placeholder="Enter Student Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="className">Class:</label>
+                    <input type="text" id="className" placeholder="Enter Class (e.g., X, XII)" required>
+                </div>
+                <!-- NEW: Radio Buttons for Exam Period Selection -->
+                <div class="radio-group">
+                    <label>Select Exam Period:</label<br>
+                    <input type="radio" id="midTerm" name="examPeriod" value="Mid Term" required>
+                    <label for="midTerm">I Mid Term</label<br>
+
+                    <input type="radio" id="iiMidTerm" name="examPeriod" value="II Mid Term">
+                    <label for="iiMidTerm">II Mid Term</label<br>
+
+                    <input type="radio" id="iiiMidTerm" name="examPeriod" value="III Mid Term">
+                    <label for="iiiMidTerm">III Mid Term</label<br>
+                    
+                    <input type="radio" id="quarterly" name="examPeriod" value="Quarterly">
+                    <label for="quarterly">Quarterly</label<br>
+
+                    <input type="radio" id="halfYearly" name="examPeriod" value="Half Yearly">
+                    <label for="halfYearly">Half Yearly</label>
+                </div>
+                
+                <button onclick="displayMarks()" id="submitBtn">View Marks</button>
+            </div>
+            <div class="marks-display">
+                <h3>Results Display:</h3>
+                <div id="marksOutput">
+                    <p>Enter details above and click 'View Marks' to see the result.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Government Higher Secondary School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

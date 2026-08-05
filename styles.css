@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3; /* Deep Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
+
+nav {
+    background-color: #007bff; /* Brighter Blue */
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Photo Frame Styling */
+.photo-frame {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+.photo-frame iframe {
+    max-width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 4px;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Form Styling for Marks */
+.marks-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submitBtn {
+    background-color: #28a745; /* Green for action */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+#submitBtn:hover {
+    background-color: #1e7e34;
+}
+
+.marks-display {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #007bff;
+    background-color: #e7f4ff;
+    border-radius: 4px;
+}
+
+.marks-display h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
